@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../img/pattern.png);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.smart2 {
+  border: 1px solid black;
+  width: 300px;
+  height: 550px;
+  border-radius: 40px;
+  border-bottom: 40px solid black;
+  border-left: 13px solid black;
+  border-right: 13px solid black;
+  border-top: 40px solid black;
+  overflow: auto;
+  background-image: url(../img/1.png);
+  scrollbar-width: thin;
+}
+.text {
+  margin: 15px;
+  font-size: 20px;
+}
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+.inimg {
+    background: url(../img/desert.jpg) no-repeat;
+    width: 227px;
+    height: 170px;
+    margin: 15px;
+}
+.btn {
+    border: none;
+    margin: 15px;
+    border-radius: 10px;
+    width: 70px;
+    height: 36px;
+    background-color: #5F9DF7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
